@@ -10,7 +10,7 @@ def projectpaths(directory):
 	for path in os.listdir(directory):
 		if os.path.isdir(path):
 			files += projectpaths(path)
-		else if os.path.isfile(path):
+		elif os.path.isfile(path):
 			files[os.path.realpath(path)]
 	
 	return files
