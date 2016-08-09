@@ -2,7 +2,7 @@
 
 import os
 
-CLONE_DIR = os.getenv('TRAVIS_BUILD_DIR'):
+CLONE_DIR = os.getenv('TRAVIS_BUILD_DIR')
 
 def projectpaths(directory):
 	files = []
